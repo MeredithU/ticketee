@@ -5,8 +5,16 @@
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+
+  <script src="/assets/application.js" type="text/javascript"></script>
 </head>
 <body>
+
+	<% flash.each do |key, value| %>
+		<div class='flash' id='<%= key %>'>
+			<%= value %>
+		</div>
+	<% end %>
 
 <%= yield %>
 

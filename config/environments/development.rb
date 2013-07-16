@@ -34,4 +34,11 @@ Ticketee::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+
+  # Emails are sent out using the URL helpers, this will tell it which URL to use as a base
+  config.action_mailer.default_url_options = {
+    :host => 'localhost:3000'
+  }
+
+
 end

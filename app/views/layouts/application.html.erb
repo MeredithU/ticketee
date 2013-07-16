@@ -6,7 +6,7 @@
   		<%= yield(:title) %>
   	<% else %>
   		Ticketee
-  	<% end %> 
+  	<% end %>
   </title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
@@ -21,6 +21,10 @@
 			<%= value %>
 		</div>
 	<% end %>
+
+  <nav>
+    <%= link_to "Sign up", new_user_registration_path %>
+  </nav>
 
 <%= yield %>
 

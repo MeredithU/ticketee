@@ -15,6 +15,9 @@ RSpec.configure do |config|
     ActionMailer::Base.deliveries.clear
   end
 
+  # Devise test helpers only available on the controller specs
+  config.include Devise::TestHelpers, :type => :controller
+
   # ## Mock Framework
   #
   # If you prefer to use mocha, flexmock or RR, uncomment the appropriate line:

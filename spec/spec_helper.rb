@@ -9,6 +9,12 @@ require 'rspec/autorun'
 Dir[Rails.root.join("spec/support/**/*.rb")].each { |f| require f }
 
 RSpec.configure do |config|
+
+  # Clean out the email deliveries that have happened during previous test runs
+  config.before do
+    ActionMailer::Base.deliveries.clear
+  end
+
   # ## Mock Framework
   #
   # If you prefer to use mocha, flexmock or RR, uncomment the appropriate line:

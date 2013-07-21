@@ -4,9 +4,6 @@ feature "Editing Projects" do
 
   before do
     sign_in_as!(Factory(:admin_user))
-  end
-
-  before do
     Factory(:project, :name => "TextMate 2")
       visit "/"
       click_link "TextMate 2"

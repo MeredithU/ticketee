@@ -332,6 +332,7 @@
         null,
         1,
         5,
+        20,
         null,
         null,
         1,
@@ -413,6 +414,7 @@
         1,
         null,
         1,
+        1,
         null,
         1,
         1,
@@ -439,8 +441,15 @@
         null,
         null,
         null
+      ],
+      "/Users/meredithunderell/CodeFellows/ticketee/app/models/asset.rb": [
+        1,
+        1,
+        null,
+        1,
+        null
       ]
     },
-    "timestamp": 1375730217
+    "timestamp": 1375734837
   }
 }

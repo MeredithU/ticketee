@@ -72,6 +72,10 @@
         1,
         null
       ],
+      "/Users/meredithunderell/CodeFellows/ticketee/app/helpers/files_helper.rb": [
+        1,
+        null
+      ],
       "/Users/meredithunderell/CodeFellows/ticketee/app/helpers/projects_helper.rb": [
         1,
         null
@@ -197,6 +201,23 @@
         null,
         1,
         17,
+        null,
+        null,
+        null
+      ],
+      "/Users/meredithunderell/CodeFellows/ticketee/app/controllers/files_controller.rb": [
+        1,
+        1,
+        null,
+        1,
+        2,
+        null,
+        2,
+        1,
+        null,
+        null,
+        1,
+        1,
         null,
         null,
         null
@@ -431,12 +452,12 @@
         1,
         null,
         1,
-        78,
-        114,
+        80,
+        115,
         null,
         null,
-        41,
-        41,
+        42,
+        42,
         null,
         null,
         null,
@@ -447,9 +468,12 @@
         1,
         null,
         1,
+        null,
+        null,
+        1,
         null
       ]
     },
-    "timestamp": 1375734837
+    "timestamp": 1375741307
   }
 }

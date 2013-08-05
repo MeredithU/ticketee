@@ -23,6 +23,10 @@ end
 
 gem 'jquery-rails'
 
+group :development do
+  gem 'coffee-rails-source-maps'
+end
+
 group :test, :development do
 	gem 'rspec-rails', '~> 2.11'
 end
@@ -36,6 +40,7 @@ end
 
 gem 'devise', '2.1.0'
 gem 'cancan', '1.6.7'
+gem 'paperclip', '2.7.0'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

@@ -14,7 +14,7 @@
       <img src="./assets/0.7.1/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2013-08-05T15:21:47-07:00">2013-08-05T15:21:47-07:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2013-08-05T17:04:28-07:00">2013-08-05T17:04:28-07:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -25,15 +25,15 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         8.06
+         7.92
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
     <b>22</b> files in total.
-    <b>218</b> relevant lines. 
-    <span class="green"><b>218</b> lines covered</span> and
+    <b>222</b> relevant lines. 
+    <span class="green"><b>222</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -93,11 +93,11 @@
       <tr>
         <td class="strong"><a href="#a5b8e616db8abb653ff252dea1aa9c150232480b" class="src_link" title="app/controllers/files_controller.rb">app/controllers/files_controller.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>15</td>
-        <td>8</td>
-        <td>8</td>
+        <td>23</td>
+        <td>12</td>
+        <td>12</td>
         <td>0</td>
-        <td>1.3</td>
+        <td>2.4</td>
       </tr>
       
       <tr>
@@ -127,7 +127,7 @@
         <td>49</td>
         <td>49</td>
         <td>0</td>
-        <td>3.8</td>
+        <td>3.5</td>
       </tr>
       
       <tr>
@@ -167,7 +167,7 @@
         <td>9</td>
         <td>9</td>
         <td>0</td>
-        <td>51.0</td>
+        <td>49.1</td>
       </tr>
       
       <tr>
@@ -217,7 +217,7 @@
         <td>7</td>
         <td>7</td>
         <td>0</td>
-        <td>40.3</td>
+        <td>38.3</td>
       </tr>
       
       <tr>
@@ -283,15 +283,15 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         4.72
+         4.81
        </span>
     </span> hits/line)
   </h2>
   <a name="Controllers"></a>
   <div>
     <b>9</b> files in total.
-    <b>159</b> relevant lines. 
-    <span class="green"><b>159</b> lines covered</span> and
+    <b>163</b> relevant lines. 
+    <span class="green"><b>163</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -351,11 +351,11 @@
       <tr>
         <td class="strong"><a href="#a5b8e616db8abb653ff252dea1aa9c150232480b" class="src_link" title="app/controllers/files_controller.rb">app/controllers/files_controller.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>15</td>
-        <td>8</td>
-        <td>8</td>
+        <td>23</td>
+        <td>12</td>
+        <td>12</td>
         <td>0</td>
-        <td>1.3</td>
+        <td>2.4</td>
       </tr>
       
       <tr>
@@ -385,7 +385,7 @@
         <td>49</td>
         <td>49</td>
         <td>0</td>
-        <td>3.8</td>
+        <td>3.5</td>
       </tr>
       
       <tr>
@@ -410,7 +410,7 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         12.13
+         11.8
        </span>
     </span> hits/line)
   </h2>
@@ -442,7 +442,7 @@
         <td>7</td>
         <td>7</td>
         <td>0</td>
-        <td>40.3</td>
+        <td>38.3</td>
       </tr>
       
       <tr>
@@ -544,7 +544,7 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         8.86
+         8.59
        </span>
     </span> hits/line)
   </h2>
@@ -596,7 +596,7 @@
         <td>9</td>
         <td>9</td>
         <td>0</td>
-        <td>51.0</td>
+        <td>49.1</td>
       </tr>
       
       <tr>
@@ -1507,8 +1507,8 @@
     <h3>app/controllers/files_controller.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>8</b> relevant lines. 
-      <span class="green"><b>8</b> lines covered</span> and
+      <b>12</b> relevant lines. 
+      <span class="green"><b>12</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -1537,70 +1537,118 @@
         <li class="covered" data-hits="1" data-linenumber="4">
           <span class="hits">1</span>
           
-          <code class="ruby">  def show</code>
+          <code class="ruby">  def new</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="5">
-          <span class="hits">2</span>
+        <li class="covered" data-hits="6" data-linenumber="5">
+          <span class="hits">6</span>
           
-          <code class="ruby">    asset = Asset.find(params[:id])</code>
+          <code class="ruby">    @ticket = Ticket.new</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="6">
+        <li class="covered" data-hits="6" data-linenumber="6">
+          <span class="hits">6</span>
           
-          
-          <code class="ruby"></code>
+          <code class="ruby">    asset = @ticket.assets.build</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="7">
-          <span class="hits">2</span>
+        <li class="never" data-hits="" data-linenumber="7">
           
-          <code class="ruby">    if can?(:view, asset.ticket.project)</code>
+          
+          <code class="ruby">    render  :partial =&gt; &quot;files/form&quot;,</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="8">
-          <span class="hits">1</span>
+        <li class="never" data-hits="" data-linenumber="8">
           
-          <code class="ruby">      send_file asset.asset.path, :filename =&gt; asset.asset_file_name,</code>
+          
+          <code class="ruby">            :locals =&gt; {  :number =&gt; params[:number].to_i,</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="9">
+        <li class="covered" data-hits="6" data-linenumber="9">
+          <span class="hits">6</span>
           
-          
-          <code class="ruby">                                  :content_type =&gt; asset.asset_content_type</code>
+          <code class="ruby">                          :asset =&gt; asset }</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="10">
           
           
-          <code class="ruby">    else</code>
+          <code class="ruby">  end</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="11">
-          <span class="hits">1</span>
+        <li class="never" data-hits="" data-linenumber="11">
           
-          <code class="ruby">      flash[:alert] = &quot;The asset you were looking for could not be found.&quot;</code>
+          
+          <code class="ruby"></code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="12">
           <span class="hits">1</span>
           
-          <code class="ruby">      redirect_to root_path</code>
+          <code class="ruby">  def show</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="13">
+        <li class="covered" data-hits="2" data-linenumber="13">
+          <span class="hits">2</span>
           
-          
-          <code class="ruby">    end</code>
+          <code class="ruby">    asset = Asset.find(params[:id])</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="14">
           
           
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="15">
+          <span class="hits">2</span>
+          
+          <code class="ruby">    if can?(:view, asset.ticket.project)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="16">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      send_file asset.asset.path, :filename =&gt; asset.asset_file_name,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="17">
+          
+          
+          <code class="ruby">                                  :content_type =&gt; asset.asset_content_type</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="18">
+          
+          
+          <code class="ruby">    else</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="19">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      flash[:alert] = &quot;The asset you were looking for could not be found.&quot;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="20">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      redirect_to root_path</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="21">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="22">
+          
+          
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="15">
+        <li class="never" data-hits="" data-linenumber="23">
           
           
           <code class="ruby">end</code>
@@ -2272,10 +2320,10 @@
           <code class="ruby">    @ticket = @project.tickets.build</code>
         </li>
       
-        <li class="covered" data-hits="20" data-linenumber="12">
-          <span class="hits">20</span>
+        <li class="covered" data-hits="5" data-linenumber="12">
+          <span class="hits">5</span>
           
-          <code class="ruby">    3.times { @ticket.assets.build }</code>
+          <code class="ruby">    @ticket.assets.build</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="13">
@@ -2974,8 +3022,8 @@
           <code class="ruby">  def authorized?(permission, thing, &amp;block)</code>
         </li>
       
-        <li class="covered" data-hits="64" data-linenumber="16">
-          <span class="hits">64</span>
+        <li class="covered" data-hits="47" data-linenumber="16">
+          <span class="hits">47</span>
           
           <code class="ruby">    block.call if can?(permission.to_sym, thing) || current_user.try(:admin?)</code>
         </li>
@@ -3178,14 +3226,14 @@
           <code class="ruby">        thing.nil? ||</code>
         </li>
       
-        <li class="covered" data-hits="42" data-linenumber="9">
-          <span class="hits">42</span>
+        <li class="covered" data-hits="35" data-linenumber="9">
+          <span class="hits">35</span>
           
           <code class="ruby">        permission.thing_id.nil?</code>
         </li>
       
-        <li class="covered" data-hits="42" data-linenumber="10">
-          <span class="hits">42</span>
+        <li class="covered" data-hits="35" data-linenumber="10">
+          <span class="hits">35</span>
           
           <code class="ruby">        permission.thing_id == thing.id</code>
         </li>
